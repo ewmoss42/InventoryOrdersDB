@@ -1,62 +1,78 @@
-Inventory & Orders Database (Module 1)
-
-This project is a small inventory and order management system built with MySQL and Python.
-It demonstrates relational database design (tables, keys, relationships) and real interaction with the database through a Python menu application.
-
 Instructions for Build and Use
-
 Software Demo
 
-Steps to build and/or run the software:
+📹 Demo Video:
+(Insert your YouTube video link here)
 
-Ensure MySQL Server is running and you can connect using MySQL Workbench.
+Steps to Build and/or Run the Software
 
-Run the schema script in MySQL Workbench: schema.sql
+Ensure MySQL Server is running and accessible through MySQL Workbench.
 
-Run the insert script in MySQL Workbench: insert_data.sql
+In MySQL Workbench, run the database schema script:
 
-Install the Python connector:
+schema.sql
+
+Populate the database with sample data:
+
+insert_data.sql
+
+Install the required Python dependency:
 
 pip3 install mysql-connector-python
 
-Run the menu app:
+
+Run the main application:
 
 python3 app.py
 
-Instructions for using the software:
+Instructions for Using the Software
 
-Choose 1 to list products.
+Once the menu appears:
 
-Choose 2 to create a new order for a customer.
+Select 1 to list all products with prices, stock levels, and categories.
 
-Choose 3 to add an item to an order (updates stock too).
+Select 2 to create a new order for an existing customer.
 
-Choose 4 to display order totals.
+Select 3 to add items to an order (inventory stock is updated automatically).
 
-Choose 5 to exit.
+Select 4 to view order totals per customer.
+
+Select 5 to exit the application.
 
 Development Environment
 
-To recreate the development environment, you need the following software and/or libraries with the specified versions:
+To recreate the development environment, you will need:
 
 Python 3.9+
 
-MySQL Server (local)
+MySQL Server (local installation)
 
 MySQL Workbench
 
-VS Code (or any editor)
+Visual Studio Code (or another code editor)
 
 mysql-connector-python (installed via pip)
 
 Useful Websites to Learn More
 
-I found these websites useful in developing this software:
+The following resources were helpful during development:
 
-MySQL Connector/Python Documentation: https://dev.mysql.com/doc/connector-python/en/
+MySQL Connector/Python Documentation
+https://dev.mysql.com/doc/connector-python/en/
 
-MySQL Workbench Documentation: https://dev.mysql.com/doc/workbench/en/
+MySQL Workbench Documentation
+https://dev.mysql.com/doc/workbench/en/
 
 Future Work
 
-The following items I plan to fix, improve, and/or add to this project in the future:
+Planned improvements and extensions for this project include:
+
+ Adding user authentication and roles
+
+ Implementing order deletion and modification
+
+ Improving error handling and input validation
+
+ Adding reporting features (daily sales, low inventory alerts)
+
+ Refactoring into a web-based application
