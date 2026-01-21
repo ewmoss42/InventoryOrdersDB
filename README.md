@@ -2,7 +2,7 @@ Instructions for Build and Use
 Software Demo
 
 📹 Demo Video:
-(Insert your YouTube video link here)
+https://youtu.be/icTyKy1j-wA
 
 Steps to Build and/or Run the Software
 
